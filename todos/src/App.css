@@ -1,0 +1,100 @@
+@import './fonts.css';
+body {
+  background-image: url('./pics/bg.png');
+  background-size: cover; 
+  font-family: 'Baumans', cursive;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+ .todo-item {
+  border-radius: 30px;
+}
+
+.wallet {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #056337;
+}
+
+.balance {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #A6290D; 
+}
+
+.addButton, .deleteButton {
+  color: #fff;
+  background-color:  #f2941e; 
+  border: 2px solid  #f2941e;
+  padding: 8px 16px;
+  border-radius: 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  
+}
+.deleteButton {
+  background-color: #2F77D9; 
+  border: 2px solid #2F77D9;
+  margin-left: 10px; 
+  float: right; 
+}
+
+ .deleteButton:hover {
+  background-color: #4b88dd;
+  border-color: #4b88dd;
+}
+.addButton:hover {
+  background-color: #cb364f;
+  border-color: #cb364f;
+}
+
+.todo-item {
+  background-color: #F7ECD2; 
+  padding: 10px;
+  margin: 0 auto; 
+  margin-bottom: 10px; 
+  border-radius: 15px; 
+  border: 2px solid #000; 
+  max-width: 400px; 
+}
+
+.todo-item.completed {
+   text-decoration: line-through;
+}
+
+.add-todoForm {
+  margin-bottom: 20px;
+}
+
+.addText {
+  padding: 8px 12px;
+  background-color: #F7ECD2; 
+  font-size: 1rem;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  width: 200px; 
+}
+
+.addText:focus {
+  outline: none;
+  border-color: #f2941e;
+}
+
+.clock {
+  font-family: 'ds-digib', sans-serif;
+  font-size: 3rem; 
+  color: #c51010; 
+  margin-left: auto; 
+ 
+  position: fixed;
+  right: 70px;
+  bottom: 200px;
+
+}
+
